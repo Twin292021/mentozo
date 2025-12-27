@@ -9,9 +9,9 @@ const universities = [
   { name: "CU Online", logo: "/universities/cu-online.png" },
   { name: "DY Patil", logo: "/universities/dypatil.png" },
   { name: "LPU Online", logo: "/universities/lpu-online.png" },
-  { name: "Sharda University", logo: "/universities/sharada.png" },
-  { name: "CU Online", logo: "/universities/cu-online.png" },
-  { name: "DY Patil", logo: "/universities/dypatil.png" },
+  { name: "Amity", logo: "/universities/amity.png" },
+  { name: "Manipal", logo: "/universities/manipal.png" },
+  { name: "nmims", logo: "/universities/nmims.png" },
   { name: "LPU Online", logo: "/universities/lpu-online.png" },
 ]
 

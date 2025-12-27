@@ -99,14 +99,17 @@ export default function AboutPage() {
             {/* ================= HERO ================= */}
             <section className="bg-gradient-to-l from-white to-indigo-50 py-16">
                 <div className="container mx-auto px-6 lg:px-20 text-center">
-                    <motion.span
-                        className="inline-block mb-5 bg-indigo-600 px-6 py-3 text-xs font-semibold tracking-wide text-white"
+                    <motion.div
+                        className="text-center mb-2 lg:mb-6"
                         initial={{ opacity: 0, y: 10 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
+                        transition={{ duration: 0.6 }}
                     >
-                        ABOUT US
-                    </motion.span>
+                        <span className="inline-block mb-5 rounded-xs bg-indigo-600 px-6 py-3 text-xs font-semibold tracking-wide text-gray-100">
+                            ABOUT US
+                        </span>
+                    </motion.div>
 
                     <motion.h2
                         className="text-3xl sm:text-4xl lg:text-5xl font-light"
@@ -123,7 +126,7 @@ export default function AboutPage() {
             </section>
 
             {/* ================= STATS ================= */}
-            <section className="bg-slate-950 py-16">
+            <section className="bg-slate-950 py-20">
                 <div className="container mx-auto px-6 lg:px-20 grid lg:grid-cols-2 gap-16 items-center">
 
                     <motion.div

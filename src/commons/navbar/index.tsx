@@ -66,7 +66,7 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
           <Link
-            href="/apply-now"
+            href="/contact"
             className="hidden lg:inline-block rounded-sm bg-indigo-600 px-6 py-2 text-lg font-medium text-white shadow-md transition hover:bg-indigo-700"
           >
             Apply Now
@@ -132,7 +132,7 @@ export default function Navbar() {
 
           <li className="px-6 py-4">
             <Link
-              href="/apply-now"
+              href="/contact"
               onClick={() => setMenuOpen(false)}
               className="block w-full rounded-sm bg-indigo-600 px-6 py-3 text-center text-lg font-medium text-white transition hover:bg-indigo-700"
             >

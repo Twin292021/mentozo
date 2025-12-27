@@ -50,9 +50,9 @@ export default function Hero() {
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-              >
+                >
                 <Link
-                  href="/apply-now"
+                  href="/contact"
                   className="inline-flex w-full sm:w-auto items-center justify-center
                  rounded-sm bg-indigo-600 px-8 py-4
                  text-lg font-medium text-white

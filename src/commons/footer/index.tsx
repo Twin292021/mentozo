@@ -10,7 +10,6 @@ export default function Footer() {
             description:
                 "Empowering students with expert guidance, transparent counseling, and end-to-end support to choose the right online degree programs with confidence.",
         },
-
         quickLinks: [
             { label: "Home", href: "/" },
             { label: "About Us", href: "/about" },
@@ -18,11 +17,10 @@ export default function Footer() {
             { label: "Services", href: "/services" },
             { label: "Contact Us", href: "/contact" },
         ],
-
         contact: {
             location: "Noida, Delhi NCR, India",
             email: "hr@mentozo.com",
-            phone: "+91 xxxxx-xxxxx",
+            phone: "+91-7011512300",
         },
         legal: [
             { label: "Terms & Conditions", href: "/terms" },

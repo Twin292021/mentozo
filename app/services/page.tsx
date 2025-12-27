@@ -22,45 +22,46 @@ const services: ServiceItem[] = [
         id: 1,
         title: "Education Consulting",
         description:
-            "We provide personalized education consulting to help you choose the right online graduation course and university. Our expert team understands your academic background, career goals, and personal preferences to guide you toward the most suitable options. Whether you're unsure where to start or comparing multiple programs, we simplify your decision-making with honest advice and up-to-date insights—so you can move forward with confidence.",
+            "At Mentozo, we offer personalized education consulting designed to help students make confident and informed decisions about their online graduation journey. Our expert counselors take the time to understand your academic background, career aspirations, and personal preferences, ensuring you are guided toward universities and programs that truly align with your goals.",
         image: "/services/consulting/consulting.svg",
     },
     {
         id: 2,
-        title: "Financial Service",
+        title: "Financial Guidance",
         description:
-            "We assist students in understanding the complete financial aspects of pursuing an online degree. From fee comparisons across universities to guidance on EMI options, scholarships, and flexible payment plans, our experts ensure that cost never becomes a barrier to your education. We help you make informed financial decisions that align with your goals and budget, making your graduation journey smooth and stress-free.",
+            "Mentozo helps you navigate the financial side of online education with clarity and confidence. From comparing university fees to understanding EMI options, scholarships, and flexible payment plans, our advisors ensure that financial constraints never stand in the way of your education. We help you plan smarter so you can focus on learning, not costs.",
         image: "/services/finance/finance1.svg",
     },
     {
         id: 3,
         title: "Course Consulting",
         description:
-            "Choosing the right course is the foundation of a successful career. Our Course Consulting service helps you identify the online graduation program that best fits your interests, strengths, and future goals. Whether you're unsure about your path or exploring new options, we offer expert advice to match you with courses that align with both your passion and the job market demand.",
+            "Choosing the right course can shape your entire career. Mentozo’s Course Consulting service helps you identify online programs that match your interests, strengths, and long-term career ambitions. Whether you’re exploring options or switching paths, our experts guide you toward courses that are relevant, in-demand, and future-ready.",
         image: "/services/course/course.svg",
     },
     {
         id: 4,
         title: "Admission Review & Support",
         description:
-            "We ensure a smooth and error-free admission process by carefully reviewing your application, documents, and university requirements. Our team provides step-by-step support—from filling out forms to tracking your application status—so you never miss a deadline. With our expert guidance, your admission journey becomes stress-free and successful.",
+            "With Mentozo, your admission process becomes simple and stress-free. Our team carefully reviews your applications, documents, and eligibility criteria to minimize errors and delays. From form filling to submission tracking, we provide end-to-end support so you never miss an important step or deadline.",
         image: "/services/application/application.svg",
     },
     {
         id: 5,
         title: "Enrollment Strategy",
         description:
-            "We help you build a smart enrollment plan by aligning your course selection, timelines, and career goals. Our team guides you on when and where to apply, how to prioritize universities, and what steps to take to ensure a smooth and timely admission. With a clear strategy, you can avoid delays and start your online degree with confidence.",
+            "Mentozo helps you build a smart and well-timed enrollment strategy. We guide you on application timelines, university shortlisting, and priority decisions to ensure a smooth start to your online degree. With a clear plan in place, you can avoid confusion and move forward with confidence.",
         image: "/services/enroll/enroll.svg",
     },
     {
         id: 6,
         title: "Post-Degree Guidance",
         description:
-            "Our support doesn’t end at graduation. We provide career counseling, advice on further studies, and help you explore job opportunities to make the most of your online degree. Whether you want to enter the workforce or pursue higher education, we’re here to guide your next steps confidently.",
+            "Our commitment at Mentozo goes beyond graduation. We provide continued guidance through career counseling, higher education planning, and job opportunity exploration. Whether you’re stepping into the workforce or planning further studies, we support you in making the most of your online degree and future career path.",
         image: "/services/post-degree/post-degree.svg",
     },
 ];
+
 
 /* ================================
    PAGE

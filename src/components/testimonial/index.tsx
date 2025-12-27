@@ -14,23 +14,23 @@ type Testimonial = {
 
 const testimonials: Testimonial[] = [
     {
-        name: "Aman Verma",
+        name: "Rohit Sharma",
         program: "B.Com (Online)",
         title: "Transformational Consulting!",
         feedback:
-            "GradOnline.in completely changed the way I approached my education. Their guidance helped me select the right online degree course, and the admission process was smoother than I ever expected. The team was supportive, knowledgeable, and always just a call away.",
+            "Mentozo.com completely changed the way I approached my education. Their guidance helped me select the right online degree course, and the admission process was smoother than I ever expected. The team was supportive, knowledgeable, and always just a call away.",
         avatar: "/testimonials/user1.jpg",
     },
     {
-        name: "Anjali Mishra",
+        name: "Priya Nair",
         program: "BBA (Online)",
         title: "Truly a Life-Changing Experience!",
         feedback:
-            "GradOnline.in made the confusing world of online education surprisingly easy. From course comparison to admission paperwork, everything was handled smoothly. I genuinely felt cared for throughout the process.",
+            "Mentozo.com made the confusing world of online education surprisingly easy. From course comparison to admission paperwork, everything was handled smoothly. I genuinely felt cared for throughout the process.",
         avatar: "/testimonials/user2.jpg",
     },
     {
-        name: "Ramshi Mehta",
+        name: "Ayushi Mehra",
         program: "BA (Online)",
         title: "Genuine & Trustworthy",
         feedback:
@@ -38,15 +38,15 @@ const testimonials: Testimonial[] = [
         avatar: "/testimonials/user3.jpg",
     },
     {
-        name: "Neha Gupta",
+        name: "Sneha Patel",
         program: "MBA (Online)",
         title: "Perfect for Tier-2 City Students",
         feedback:
-            "As someone from a smaller town, online education felt overwhelming. GradOnline made everything accessible and stress-free. Highly recommended!",
+            "As someone from a smaller town, online education felt overwhelming. Mentozo.com made everything accessible and stress-free. Highly recommended!",
         avatar: "/testimonials/user4.jpg",
     },
     {
-        name: "Suresh Kumar",
+        name: "Amit Joshi",
         program: "M.Com (Online)",
         title: "Super Fast & Hassle-Free Process",
         feedback:
@@ -54,15 +54,15 @@ const testimonials: Testimonial[] = [
         avatar: "/testimonials/user5.jpg",
     },
     {
-        name: "Rajesh Singh",
+        name: "Vikas Chauhan",
         program: "MCA (Online)",
         title: "Clear Guidance & Constant Support",
         feedback:
-            "I was confused between multiple universities and programs, but GradOnline explained everything clearly and patiently. Their counselors followed up at every step and made sure I never felt lost. The entire experience was smooth, transparent, and stress-free.",
+            "I was confused between multiple universities and programs, but Mentozo.com explained everything clearly and patiently. Their counselors followed up at every step and made sure I never felt lost. The entire experience was smooth, transparent, and stress-free.",
         avatar: "/testimonials/user6.jpg",
     }
-
 ];
+
 
 
 export default function Testimonials() {
@@ -124,7 +124,7 @@ export default function Testimonials() {
                             {/* Quote */}
                             <p className="text-gray-600 text-sm leading-relaxed mb-8 relative">
                                 <span className="absolute -left-2 -top-4 text-indigo-100 font-serif">
-                                    <QuoteIcon className="w-full h-full"/>
+                                    <QuoteIcon className="w-full h-full" />
                                 </span>
                                 {item.feedback}
                             </p>

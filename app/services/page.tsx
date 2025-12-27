@@ -138,7 +138,7 @@ export default function Page() {
                         className="item-center"
                     >
                         <Link
-                            href="/apply-now"
+                            href="/contact"
                             className="inline-flex w-full sm:w-auto items-center justify-center
                  rounded-sm bg-indigo-600 px-8 py-4
                  text-lg font-medium text-white

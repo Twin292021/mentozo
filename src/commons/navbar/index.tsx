@@ -37,16 +37,17 @@ export default function Navbar() {
         <nav className="container mx-auto flex items-center justify-between px-4 py-4 lg:px-6">
           
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
+          <Link href="/" className="flex items-center space-x-0">
             <Image
-              src="/logo/logo.svg"
+              src="/logo/logo1.svg"
               alt="Mentozo Logo"
               width={32}
               height={32}
               priority
+              className="w-9"
             />
-            <span className="text-xl font-semibold text-indigo-600">
-              MENTOZO
+            <span className="text-3xl font-bold">
+              ENTOZO
             </span>
           </Link>
 

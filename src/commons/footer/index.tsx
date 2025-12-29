@@ -5,8 +5,8 @@ export default function Footer() {
     /* ================= FOOTER DATA ================= */
     const footerData = {
         brand: {
-            name: "Mentozo",
-            logo: "/logo/logo.svg", // update path if needed
+            name: "ENTOZO",
+            logo: "/logo/logo1.svg", // update path if needed
             description:
                 "Empowering students with expert guidance, transparent counseling, and end-to-end support to choose the right online degree programs with confidence.",
         },
@@ -38,13 +38,13 @@ export default function Footer() {
 
                     {/* Brand */}
                     <div className="flex flex-col">
-                        <div className="flex flex-row gap-3 items-center mb-4 justify-center md:justify-start">
+                        <div className="flex flex-row items-center mb-4 justify-center md:justify-start">
                             <Image
                                 src={footerData.brand.logo}
                                 alt={footerData.brand.name}
                                 width={120}
                                 height={60}
-                                className="mb-4 w-12 h-12"
+                                className="mb-4 w-16 h-12"
                             />
                             <h3 className="text-white text-5xl font-semibold mb-4">
                                 {footerData.brand.name}
